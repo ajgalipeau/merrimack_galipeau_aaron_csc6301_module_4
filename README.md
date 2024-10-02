@@ -52,7 +52,7 @@ This will generate HTML documentation in the `docs` folder for easy browsing.
 
 ## Folder Structure
 The repository is organized as follows:
-
+```
 merrimack_galipeau_aaron_csc6301/
 ├── galipeau_aaron_week_4/        # Week 4 Linked List implementation
 │   ├── SortedLinkedList.java     # Original Linked List code
@@ -68,7 +68,7 @@ merrimack_galipeau_aaron_csc6301/
 ├── .gitignore                    # Git ignore rules
 ├── LICENSE                       # License for the repository
 └── README.md                     # Documentation and usage instructions
-
+```
 ## Documentation and usage instructions
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
