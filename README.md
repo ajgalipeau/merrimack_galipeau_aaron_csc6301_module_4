@@ -54,21 +54,31 @@ This will generate HTML documentation in the `docs` folder for easy browsing.
 The repository is organized as follows:
 ```
 merrimack_galipeau_aaron_csc6301/
-├── galipeau_aaron_week_4/        # Week 4 Linked List implementation
-│   ├── SortedLinkedList.java     # Original Linked List code
-│   └── ...                       # Other related files
-├── galipeau_aaron_week_5_list/   # Refactored Linked List with modular design
-│   ├── SortedLinkedList.java     # Refactored Linked List code
-│   └── ...                       # Other related files
-├── galipeau_aaron_week_5_stack/  # Final refactor to SortedStack
-│   ├── SortedStack.java          # Final version using Stack
-│   ├── SortedStack.puml          # PUML file for UML diagrams
-│   └── ...                       # Other related files
-├── out/                          # Compiled Java classes and output files
-├── .gitignore                    # Git ignore rules
-├── LICENSE                       # License for the repository
-└── README.md                     # Documentation and usage instructions
+├── galipeau_aaron_week_4/                # Week 4 Linked List implementation
+│   ├── .DS_Store                         # Mac system file
+│   ├── GalipeauAaronMod4PA.pdf           # PDF File for submission
+│   └── SortedLinkedList.java             # Original Linked List code
+├── galipeau_aaron_week_5_list/           # Duplicated Linked List from Week 4
+│   ├── uml/
+│   │   ├── SortedLinkedList.puml         # PUML file for UML diagrams
+│   │   └── SortedLinkedList_Diagram_GalipeauAaronWeek5.png  # UML diagram image
+│   └── SortedLinkedList.java             # Duplicated Linked List code
+├── galipeau_aaron_week_5_stack/          # Final refactor to SortedStack
+│   ├── uml/
+│   │   ├── SortedStack.puml              # PUML file for UML diagrams
+│   │   ├── SortedStack_Diagram_GalipeauAaronWeek5.pdf # PDF File for submission
+|   |   └── SortedStack_Diagram_GalipeauAaronWeek5.png # UML diagram image
+│   └── SortedStack.java                  # Final version using Stack
+├── out/                                  # Compiled Java classes and output files
+│   ├── galipeau_aaron_week_5_list/uml/
+│   │   └── SortedLinkedList.png          # UML diagram output for Week 5 list
+│   └── galipeau_aaron_week_5_stack/uml/
+│       └── SortedStack.png               # UML diagram output for Week 5 stack
+├── .gitignore                            # Git ignore rules
+├── LICENSE                               # License for the repository
+└── README.md                             # Documentation and usage instructions
+
 ```
 ## Documentation and usage instructions
-## License
+### License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
